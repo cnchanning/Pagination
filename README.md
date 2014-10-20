@@ -2,7 +2,7 @@
 
 ---
 
-[![spm version](http://spm.zbjwork.com/badge/easy-pagination)](http://spm.zbjwork.com/package/easy-pagination)
+[![spm version](http://spmjs.io/package/easy-pagination)](http://spmjs.io/package/easy-pagination)
 
 Ajax 分页组件
 
