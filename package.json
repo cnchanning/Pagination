@@ -1,0 +1,30 @@
+{
+    "name": "easy-pagination",
+    "version": "1.0.0",
+    "description": "pagination",
+    "keywords": [],
+    "homepage": "",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cnchanning/Pagination.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "licenses": "MIT",
+    "spm": {
+        "main": "pagination.js",
+        "dependencies": {
+            "arale-widget": "1.2.0",
+            "jquery": "1.7.2"
+        },
+        "devDependencies": {
+            "expect.js": "0.3.1"
+        },
+        "engines": {
+            "seajs": "2.2.1"
+        },
+        "tests": "tests/*.js"
+    }
+}
