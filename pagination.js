@@ -136,7 +136,8 @@ var Pagination = Widget.extend({
     },
 
     _clickHandle: function (eve) {
-        var target = +eve.currentTarget.innerText;
+        var target;
+        eve.currentTarget.innerText? target=+eve.currentTarget.innerText:target=+eve.currentTarget.innerHTML;
         this.jumpTo(target);
     },
     _onRenderCurrent_page: function () {
@@ -161,6 +162,7 @@ var Pagination = Widget.extend({
      * @param index 跳到的页面
      */
     jumpTo: function (index) {
+        console.log(index);
         if (index >= 1 && index <= this.get("total_page")) {
             this.set("current_page", index);
         }
